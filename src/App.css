@@ -31,7 +31,7 @@
   align-items: stretch;
   display: inline-flex;
   justify-content: space-between;
-  padding-left: 70vw;
+  padding-left: 65vw;
 }
 
 a {
@@ -65,32 +65,32 @@ a {
   /* padding: 5vw 0 0 5vw; */
 }
 
-.rev1 {
+.rev1,
+.rev2,
+.rev3,
+.rev4 {
   background-color: red;
   display: inline-flex;
   align-items: center;
   justify-content: space-evently;
   padding: 10vw 0 0 15vw;
-  margin: 7vw;
+  margin: 5vw;
   flex-wrap: wrap;
+  border-radius: 2vw;
 }
 
-.rev2 {
+.rev2,
+.rev3,
+.rev4 {
   background-color: purple;
-  display: inline-flex;
-  justify-content: space-evently;
-  align-items: stretch;
-  padding: 10vw 0 0 15vw;
-  margin: 10vw;
 }
 
 .rev3 {
   background-color: blue;
-  display: inline-flex;
-  justify-content: space-evently;
-  align-items: stretch;
-  padding: 10vw 0 0 15vw;
-  margin: 10vw;
+}
+
+.rev4 {
+  background-color: blue;
 }
 
 .form {

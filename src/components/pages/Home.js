@@ -1,7 +1,8 @@
 import React from "react";
+import Form from "../Form";
 // import header from "../assets/header.jpg";
 
-const Main = () => {
+const Home = () => {
   return (
     <div>
       <main>
@@ -9,7 +10,7 @@ const Main = () => {
           <div>
             <div className="description">
               <img
-                src={require("../assets/header.jpg")}
+                src={require("../../assets/header.jpg")}
                 alt="..."
                 className="img"
               />
@@ -27,11 +28,13 @@ const Main = () => {
             <div className="rev1"></div>
             <div className="rev2"></div>
             <div className="rev3"></div>
+            <div className="rev4"></div>
           </div>
         </section>
       </main>
+      <Form />
     </div>
   );
 };
 
-export default Main;
+export default Home;

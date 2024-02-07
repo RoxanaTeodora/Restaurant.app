@@ -10,14 +10,17 @@ const Nav = () => {
             <Link to="/">Home</Link>
           </li>
           <li className="list">
-            <Link to="/#">About</Link>
+            <Link to="/menu">Menu</Link>
           </li>
           <li className="list">
-            <Link to="/#">Contact</Link>
+            <Link to="/reservation">Reservation</Link>
           </li>
-          <li className="list-admin">
-            <Link to="/#">Admin</Link>
+          <li className="list">
+            <Link to="/order">Order online</Link>
           </li>
+          {/* <li className="list-admin">
+            <Link to="/admin">Admin</Link>
+          </li> */}
         </ul>
       </nav>
     </div>
