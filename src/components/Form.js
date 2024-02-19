@@ -49,7 +49,7 @@ const Form = () => {
           />
         </label>
         <p>
-          {form.firstName} {form.lastName} ({form.email})
+          {form.firstName} {form.lastName} {form.email}
         </p>
         <button onClick={() => console.log("hello")}>Reset</button>
       </form>
