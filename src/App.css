@@ -109,3 +109,10 @@ a {
   justify-content: center;
   padding-top: 20vw;
 }
+
+.confirm-msg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20vw;
+}

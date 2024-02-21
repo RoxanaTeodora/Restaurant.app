@@ -9,6 +9,7 @@ import Menu from "./components/pages/Menu";
 import Home from "./components/pages/Home";
 import Order from "./components/pages/Order";
 import Reservation from "./components/pages/Reservation";
+import ConfirmedBooking from "./components/pages/ConfirmedBooking";
 // import Admin from "./components/Admin";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/order" element={<Order />} />
         <Route path="/reservation" element={<Reservation />} />
+        <Route path="/confirm" element={<ConfirmedBooking />} />
         {/* <Route path="/admin" element={<Admin />} /> */}
       </Routes>
       <Footer />

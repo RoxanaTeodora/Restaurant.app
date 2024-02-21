@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import ConfirmedBooking from "./ConfirmedBooking";
+import { Link } from "react-router-dom";
 
 export default function Reservation() {
   //  state variables for each form field
@@ -6,6 +8,7 @@ export default function Reservation() {
   const [time, setTime] = useState("");
   const [guests, setGuests] = useState(1);
   const [occasion, setOccasion] = useState("Date");
+  // const [availableTimes, setAvailableTimes] = useState([]);
 
   //  state variable for available booking times
   const [availableTimes] = useState([
@@ -16,6 +19,24 @@ export default function Reservation() {
     "21:00",
     "22:00",
   ]);
+
+  // useEffect(() => {
+  //   const fetchAvailableTimes = async () => {
+  //     try {
+  //       const response = await fetch(
+  //         "https://raw.githubusercontent.com/Meta-Front-End-Developer-PC/capstone/master/api.js"
+  //       );
+  //       const responseTime = await response.json();
+  //       setAvailableTimes(responseTime.availableTimes);
+  //     } catch (error) {
+  //       console.error("Error fetching available times:", error);
+  //     }
+  //   };
+
+  //   if (date) {
+  //     fetchAvailableTimes();
+  //   }
+  // }, [date]);
 
   return (
     <div>
@@ -72,7 +93,10 @@ export default function Reservation() {
           </select>
           <label id="comment">Add a comment</label>
           <textarea value="comment"></textarea>
-          <input type="submit" value="Make Your reservation" />
+          {/* <input type="submit" value="Make Your reservation" /> */}
+          <button type="submit" className="btn-reservation">
+            <Link to="/confirm">Make Your reservation</Link>
+          </button>
         </form>
       </div>
     </div>
