@@ -5,23 +5,33 @@ const Nav = () => {
   return (
     <div>
       <nav>
-        <ul className="container">
-          <li className="list">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="list">
-            <Link to="/menu">Menu</Link>
-          </li>
-          <li className="list">
-            <Link to="/reservation">Reservation</Link>
-          </li>
-          <li className="list">
-            <Link to="/order">Order online</Link>
-          </li>
-          {/* <li className="list-admin">
+        <div
+          style={{
+            backgroundColor: "#262626",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            height: "3rem",
+          }}
+        >
+          <ul>
+            <li className="list">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="list">
+              <Link to="/menu">Menu</Link>
+            </li>
+            <li className="list">
+              <Link to="/reservation">Reservation</Link>
+            </li>
+            <li className="list">
+              <Link to="/order">Order online</Link>
+            </li>
+            {/* <li className="list-admin">
             <Link to="/admin">Admin</Link>
-          </li> */}
-        </ul>
+          </li>*/}
+          </ul>
+        </div>
       </nav>
     </div>
   );

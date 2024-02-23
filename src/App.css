@@ -1,3 +1,6 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 .App-header {
   background-color: white;
   min-height: 5vh;
@@ -9,15 +12,24 @@
   color: white;
 }
 
+button > a:hover {
+  color: black;
+}
+
 .container {
   width: 100%;
   color: #424e49;
+}
+
+.backgound {
+  backgound-color: #424e49;
 }
 
 .list,
 .list-admin {
   list-style-type: none;
   margin: 0;
+  margin-left: 2vw;
 }
 
 .list {
@@ -27,16 +39,20 @@
   align-items: stretch;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #f4ce14;
+}
+
 .list-admin {
   align-items: stretch;
   display: inline-flex;
   justify-content: space-between;
   padding-left: 65vw;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }
 
 .description {
@@ -52,45 +68,25 @@ a {
   height: 30vw;
 }
 
+.title {
+  padding-left: 3vw;
+  width: 40vw;
+  margin-top: 2vw;
+  font-size: 2vw;
+  color: #eec13e;
+  font-weight: bold;
+}
+
 .p-description {
   padding-left: 3vw;
   width: 40vw;
+  margin-top: 1vw;
+  color: white;
 }
 
-.review {
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-evently;
-  /* background-color: green; */
-  /* padding: 5vw 0 0 5vw; */
-}
-
-.rev1,
-.rev2,
-.rev3,
-.rev4 {
-  background-color: red;
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-evently;
-  padding: 10vw 0 0 15vw;
-  margin: 5vw;
-  flex-wrap: wrap;
-  border-radius: 2vw;
-}
-
-.rev2,
-.rev3,
-.rev4 {
-  background-color: purple;
-}
-
-.rev3 {
-  background-color: blue;
-}
-
-.rev4 {
-  background-color: blue;
+.btn-res {
+  padding-left: 3vw;
+  margin-top: 5vw;
 }
 
 .form {
@@ -115,4 +111,14 @@ a {
   align-items: center;
   justify-content: center;
   padding-top: 20vw;
+}
+
+.date-comp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carusel {
+  margin: 2vw;
 }
