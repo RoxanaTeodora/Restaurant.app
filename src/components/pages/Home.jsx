@@ -66,19 +66,19 @@ const Home = () => {
               className="mySwiper"
             >
               <SwiperSlide>
-                <div class="relative m-10 flex w-full max-w-s flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
-                  <div class="relative h-80 overflow-hidden rounded-xl">
+                <div className="relative m-10 flex w-full max-w-s flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
+                  <div className="relative h-80 overflow-hidden rounded-xl">
                     <img src={require("../../assets/card-1.jpg")} alt="..." />
                   </div>
-                  <div class="mt-4 px-5 pb-5">
-                    <div class="mt-2 mb-5 flex items-center justify-between">
+                  <div className="mt-4 px-5 pb-5">
+                    <div className="mt-2 mb-5 flex items-center justify-between">
                       <p>
-                        <span class="text-3xl font-bold text-slate-900">
+                        <span className="text-3xl font-bold text-slate-900">
                           Spaghetti
                         </span>
                       </p>
 
-                      <span class="mr-2 ml-3 rounded px-2.5 text-xl py-0.5 font-semibold">
+                      <span className="mr-2 ml-3 rounded px-2.5 text-xl py-0.5 font-semibold">
                         $12.99
                       </span>
                     </div>
@@ -92,19 +92,19 @@ const Home = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div class="relative m-10 flex w-full max-w-s flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
-                  <div class="relative h-80 overflow-hidden rounded-xl">
+                <div className="relative m-10 flex w-full max-w-s flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
+                  <div className="relative h-80 overflow-hidden rounded-xl">
                     <img src={require("../../assets/card-2.jpg")} alt="..." />
                   </div>
-                  <div class="mt-4 px-5 pb-5">
-                    <div class="mt-2 mb-5 flex items-center justify-between">
+                  <div className="mt-4 px-5 pb-5">
+                    <div className="mt-2 mb-5 flex items-center justify-between">
                       <p>
-                        <span class="text-3xl font-bold text-slate-900">
+                        <span className="text-3xl font-bold text-slate-900">
                           Spaghetti
                         </span>
                       </p>
 
-                      <span class="mr-2 ml-3 rounded px-2.5 text-xl py-0.5 font-semibold">
+                      <span className="mr-2 ml-3 rounded px-2.5 text-xl py-0.5 font-semibold">
                         $12.99
                       </span>
                     </div>
@@ -118,19 +118,19 @@ const Home = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div class="relative m-10 flex w-full max-w-s flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
-                  <div class="relative  h-80 overflow-hidden rounded-xl">
+                <div className="relative m-10 flex w-full max-w-s flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
+                  <div className="relative  h-80 overflow-hidden rounded-xl">
                     <img src={require("../../assets/card-1.jpg")} alt="..." />
                   </div>
-                  <div class="mt-4 px-5 pb-5">
-                    <div class="mt-2 mb-5 flex items-center justify-between">
+                  <div className="mt-4 px-5 pb-5">
+                    <div className="mt-2 mb-5 flex items-center justify-between">
                       <p>
-                        <span class="text-3xl font-bold text-slate-900">
+                        <span className="text-3xl font-bold text-slate-900">
                           Spaghetti
                         </span>
                       </p>
 
-                      <span class="mr-2 ml-3 rounded px-2.5 text-xl py-0.5 font-semibold">
+                      <span className="mr-2 ml-3 rounded px-2.5 text-xl py-0.5 font-semibold">
                         $12.99
                       </span>
                     </div>
@@ -144,19 +144,19 @@ const Home = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div class="relative m-10 flex w-full max-w-s flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
-                  <div class="relative  h-80 overflow-hidden rounded-xl">
+                <div className="relative m-10 flex w-full max-w-s flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
+                  <div className="relative  h-80 overflow-hidden rounded-xl">
                     <img src={require("../../assets/card-1.jpg")} alt="..." />
                   </div>
-                  <div class="mt-4 px-5 pb-5">
-                    <div class="mt-2 mb-5 flex items-center justify-between">
+                  <div className="mt-4 px-5 pb-5">
+                    <div className="mt-2 mb-5 flex items-center justify-between">
                       <p>
-                        <span class="text-3xl font-bold text-slate-900">
+                        <span className="text-3xl font-bold text-slate-900">
                           Spaghetti
                         </span>
                       </p>
 
-                      <span class="mr-2 ml-3 rounded px-2.5 text-xl py-0.5 font-semibold">
+                      <span className="mr-2 ml-3 rounded px-2.5 text-xl py-0.5 font-semibold">
                         $12.99
                       </span>
                     </div>
@@ -170,19 +170,19 @@ const Home = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div class="relative m-10 flex w-full max-w-s flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
-                  <div class="relative  h-80 overflow-hidden rounded-xl">
+                <div className="relative m-10 flex w-full max-w-s flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
+                  <div className="relative  h-80 overflow-hidden rounded-xl">
                     <img src={require("../../assets/card-1.jpg")} alt="..." />
                   </div>
-                  <div class="mt-4 px-5 pb-5">
-                    <div class="mt-2 mb-5 flex items-center justify-between">
+                  <div className="mt-4 px-5 pb-5">
+                    <div className="mt-2 mb-5 flex items-center justify-between">
                       <p>
-                        <span class="text-3xl font-bold text-slate-900">
+                        <span className="text-3xl font-bold text-slate-900">
                           Spaghetti
                         </span>
                       </p>
 
-                      <span class="mr-2 ml-3 rounded px-2.5 text-xl py-0.5 font-semibold">
+                      <span className="mr-2 ml-3 rounded px-2.5 text-xl py-0.5 font-semibold">
                         $12.99
                       </span>
                     </div>
@@ -196,19 +196,19 @@ const Home = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div class="relative m-10 flex w-full max-w-s flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
-                  <div class="relative h-80 overflow-hidden rounded-xl">
+                <div className="relative m-10 flex w-full max-w-s flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
+                  <div className="relative h-80 overflow-hidden rounded-xl">
                     <img src={require("../../assets/card-1.jpg")} alt="..." />
                   </div>
-                  <div class="mt-4 px-5 pb-5">
-                    <div class="mt-2 mb-5 flex items-center justify-between">
+                  <div className="mt-4 px-5 pb-5">
+                    <div className="mt-2 mb-5 flex items-center justify-between">
                       <p>
-                        <span class="text-3xl font-bold text-slate-900">
+                        <span className="text-3xl font-bold text-slate-900">
                           Spaghetti
                         </span>
                       </p>
 
-                      <span class="mr-2 ml-3 rounded px-2.5 text-xl py-0.5 font-semibold">
+                      <span className="mr-2 ml-3 rounded px-2.5 text-xl py-0.5 font-semibold">
                         $12.99
                       </span>
                     </div>
@@ -226,29 +226,20 @@ const Home = () => {
 
           {/* review cards */}
           <div className="inline-flex ">
-            <div class="max-w-sm w-full lg:max-w-full lg:flex">
+            <div className="max-w-sm w-full lg:max-w-full lg:flex">
               <div
-                class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+                className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
                 // style="background-image: url('/img/card-left.jpg')"
               ></div>
 
-              <div class="my-40">
-                <div class="relative flex w-80 items-center overflow-hidden rounded-lg bg-white p-4 shadow hover:shadow-md">
-                  <div class="shrink-0 h-12 w-12 rounded-full bg-gray-100"></div>
-                  <div class="ml-3">
-                    <p class="font-medium text-gray-800">John doe</p>
+              <div className="my-40 ">
+                <div className="relative flex w-80 items-center overflow-hidden rounded-lg bg-white p-4 shadow hover:shadow-md">
+                  <div className="shrink-0 h-12 w-12 rounded-full bg-gray-100"></div>
+                  <div className="ml-3">
+                    <p className="font-medium text-gray-800">John doe</p>
                     <div className="flex">
                       <svg
                         aria-hidden="true"
-                        class="h-5 w-5 text-yellow-300 flex"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                      </svg>
-                      <svg
-                        aria-hidden="true"
                         class="h-5 w-5 text-yellow-300"
                         fill="currentColor"
                         viewBox="0 0 20 20"
@@ -283,8 +274,15 @@ const Home = () => {
                       >
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
                       </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="h-5 w-5 text-yellow-300"
+                        fill="currentColor"
+                        viewBox="0 0 20 40"
+                        xmlns="http://www.w3.org/2000/svg"
+                      ></svg>
                     </div>
-                    <p class="text-sm text-gray-600">
+                    <p className="text-sm text-gray-600">
                       The service was a bit slow, but the flavors in the dishes
                       made up for it.The food is absolutely delicious
                     </p>
@@ -293,21 +291,21 @@ const Home = () => {
               </div>
             </div>
 
-            <div class="max-w-sm w-full lg:max-w-full lg:flex">
+            <div className="max-w-sm w-full lg:max-w-full lg:flex">
               <div
-                class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+                className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
                 // style="background-image: url('/img/card-left.jpg')"
               ></div>
 
-              <div class="my-40">
-                <div class="relative flex w-80 items-center overflow-hidden rounded-lg bg-white p-4 shadow hover:shadow-md">
-                  <div class="shrink-0 h-12 w-12 rounded-full bg-gray-100"></div>
-                  <div class="ml-3">
-                    <p class="font-medium text-gray-800">John doe</p>
+              <div className="my-40">
+                <div className="relative flex w-80 items-center overflow-hidden rounded-lg bg-white p-4 shadow hover:shadow-md">
+                  <div className="shrink-0 h-12 w-12 rounded-full bg-gray-100"></div>
+                  <div className="ml-3">
+                    <p className="font-medium text-gray-800">John doe</p>
                     <div className="flex">
                       <svg
                         aria-hidden="true"
-                        class="h-5 w-5 text-yellow-300 flex"
+                        className="h-5 w-5 text-yellow-300 flex"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -316,7 +314,7 @@ const Home = () => {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        class="h-5 w-5 text-yellow-300"
+                        className="h-5 w-5 text-yellow-300"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -325,7 +323,7 @@ const Home = () => {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        class="h-5 w-5 text-yellow-300"
+                        className="h-5 w-5 text-yellow-300"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -334,7 +332,7 @@ const Home = () => {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        class="h-5 w-5 text-yellow-300"
+                        className="h-5 w-5 text-yellow-300"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -343,7 +341,7 @@ const Home = () => {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        class="h-5 w-5 text-yellow-300"
+                        className="h-5 w-5 text-yellow-300"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -351,7 +349,7 @@ const Home = () => {
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
                       </svg>
                     </div>
-                    <p class="text-sm text-gray-600">
+                    <p className="text-sm text-gray-600">
                       The service was a bit slow, but the flavors in the dishes
                       made up for it.The food is absolutely delicious
                     </p>
@@ -360,17 +358,17 @@ const Home = () => {
               </div>
             </div>
 
-            <div class="max-w-sm w-full lg:max-w-full lg:flex">
+            <div className="max-w-sm w-full lg:max-w-full lg:flex">
               <div
-                class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+                className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
                 // style="background-image: url('/img/card-left.jpg')"
               ></div>
 
-              <div class="my-40">
-                <div class="relative flex w-80 items-center overflow-hidden rounded-lg bg-white p-4 shadow hover:shadow-md">
-                  <div class="shrink-0 h-12 w-12 rounded-full bg-gray-100"></div>
-                  <div class="ml-3">
-                    <p class="font-medium text-gray-800">John doe</p>
+              <div className="my-40">
+                <div className="relative flex w-80 items-center overflow-hidden rounded-lg bg-white p-4 shadow hover:shadow-md">
+                  <div className="shrink-0 h-12 w-12 rounded-full bg-gray-100"></div>
+                  <div className="ml-3">
+                    <p className="font-medium text-gray-800">John doe</p>
                     <div className="flex">
                       <svg
                         aria-hidden="true"
@@ -418,7 +416,7 @@ const Home = () => {
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
                       </svg>
                     </div>
-                    <p class="text-sm text-gray-600">
+                    <p className="text-sm text-gray-600">
                       The service was a bit slow, but the flavors in the dishes
                       made up for it.The food is absolutely delicious
                     </p>

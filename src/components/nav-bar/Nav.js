@@ -25,11 +25,8 @@ const Nav = () => {
               <Link to="/reservation">Reservation</Link>
             </li>
             <li className="list">
-              <Link to="/order">Order online</Link>
+              <Link to="/recipe">Recipe</Link>
             </li>
-            {/* <li className="list-admin">
-            <Link to="/admin">Admin</Link>
-          </li>*/}
           </ul>
         </div>
       </nav>

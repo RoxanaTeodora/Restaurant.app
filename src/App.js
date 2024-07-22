@@ -7,10 +7,9 @@ import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
 import Menu from "./components/pages/Menu";
 import Home from "./components/pages/Home";
-import Order from "./components/pages/Order";
+import Recipe from "./components/pages/Recipe";
 import Reservation from "./components/pages/Reservation";
 import ConfirmedBooking from "./components/pages/ConfirmedBooking";
-// import Admin from "./components/Admin";
 
 function App() {
   return (
@@ -20,10 +19,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
-        <Route path="/order" element={<Order />} />
+        <Route path="/recipe/*" element={<Recipe />} />
         <Route path="/reservation" element={<Reservation />} />
         <Route path="/confirm" element={<ConfirmedBooking />} />
-        {/* <Route path="/admin" element={<Admin />} /> */}
       </Routes>
       <Footer />
     </div>
